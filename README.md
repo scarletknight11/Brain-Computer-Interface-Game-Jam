@@ -32,7 +32,7 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 - Thanks to Adobe Systems Incorporated for the royalty free [Astra](https://www.mixamo.com/#/?page=1&query=astra&type=Character) and Mixamo animations.
 
-- Thanks to Unity Technologies for the [Unity Game Engine](https://unity.com//).
+- Thanks to Unity Technologies for the [Unity Game Engine](https://unity.com//) and starter assets.
 
 ## Development Environment
 
