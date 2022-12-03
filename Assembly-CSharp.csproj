@@ -151,6 +151,7 @@
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLCommon.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\DeviceInfo.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\ScriptOrder.cs" />
+    <Compile Include="Assets\Particle Effects\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\MetricExtentions.cs" />
     <Compile Include="Assets\Ardity\Scripts\SerialControllerCustomDelimiter.cs" />
     <Compile Include="Assets\BCI\LSL\LSLResponseStream.cs" />
@@ -158,7 +159,6 @@
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\BrainwavesPowerByBandHandler.cs" />
     <Compile Include="Assets\BCI\ControllerScripts\Controller.cs" />
     <Compile Include="Assets\Scripts\Template\FocusSphere.cs" />
-    <Compile Include="Assets\Particle Effects\Misc Effects\Scripts\SpawnEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
