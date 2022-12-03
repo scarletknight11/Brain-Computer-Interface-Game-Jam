@@ -26,7 +26,7 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 - Thanks to [Ryan Turney](https://github.com/ryanturney) for the [Notion SDK for Unity](https://github.com/ryanturney/notion-unity). 
 
-- Thanks to [Michał Karbowiak](https://karboosx.net/) for the free [Sci-Fi Styled Modular Pack](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913)
+- Thanks to [Michał Karbowiak](https://karboosx.net/) for the free [Sci-Fi Styled Modular Pack](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913).
 
 - Thanks to Unity Technologies for the [Unity Game Engine](https://unity.com//).
 
