@@ -121,8 +121,10 @@
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:STARTER_ASSETS_PACKAGES_CHECKED
+-define:MODULAR_3D_TEXT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Font/Editor-Only Font Creator.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -310,15 +312,15 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Firebase.App.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Firebase.Platform.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Firebase.TaskExtension.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Google.MiniJson.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Parse/Plugins/dotNet45/Unity.Compat.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Parse/Plugins/dotNet45/Unity.Tasks.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.auth@cf089946267a/Firebase/Plugins/Firebase.Auth.dll"
--r:"D:/BCIGameJam/Library/PackageCache/com.google.firebase.database@b5f3ce3f1dd7/Firebase/Plugins/Firebase.Database.dll"
--r:"D:/BCIGameJam/Library/PackageCache/jillejr.newtonsoft.json-for-unity@13.0.102/Plugins/Newtonsoft.Json Editor/Newtonsoft.Json.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Firebase.App.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Firebase.Platform.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Firebase.TaskExtension.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Firebase/Plugins/Google.MiniJson.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Parse/Plugins/dotNet45/Unity.Compat.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Parse/Plugins/dotNet45/Unity.Tasks.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.auth@cf089946267a/Firebase/Plugins/Firebase.Auth.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.database@b5f3ce3f1dd7/Firebase/Plugins/Firebase.Database.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/com.unity.cinemachine.editor.ref.dll"
@@ -424,6 +426,7 @@
 "Assets/BCI/SPOScripts/SPO.cs"
 "Assets/BCI/SPOScripts/SwitchSPO.cs"
 "Assets/MenuController.cs"
+"Assets/Particle Effects/Misc Effects/Scripts/SpawnEffect.cs"
 "Assets/Scripts/Notion-Unity/Device.cs"
 "Assets/Scripts/Notion-Unity/FirebaseController.cs"
 "Assets/Scripts/Notion-Unity/Handlers/AccelerometerHandler.cs"
@@ -474,6 +477,13 @@
 "Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
+"Assets/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/AutoUpdateInputSystemToSampleScene.cs"
+"Assets/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_Announcement.cs"
+"Assets/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_Cursor.cs"
+"Assets/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_FontTest.cs"
+"Assets/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_ListTest.cs"
+"Assets/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_ModuleTutorial.cs"
+"Assets/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
