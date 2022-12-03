@@ -32,7 +32,7 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 - Thanks to [Tiny Giant Studio](https://tinygiant.studio/) for the [Modular 3D Text Plugin](https://assetstore.unity.com/packages/3d/gui/modular-3d-text-in-game-3d-ui-system-159508).
 
--Thanks to [Peter Jurik](https://stock.adobe.com/contributor/200372828/peter-jurik) for the [Space background with nebula and stars. Environment 360 HDRI map](https://stock.adobe.com/images/space-background-with-nebula-and-stars-environment-360-hdri-map-equirectangular-projection-spherical-panorama/270075274).
+- Thanks to [Peter Jurik](https://stock.adobe.com/contributor/200372828/peter-jurik) for the [Space background with nebula and stars. Environment 360 HDRI map](https://stock.adobe.com/images/space-background-with-nebula-and-stars-environment-360-hdri-map-equirectangular-projection-spherical-panorama/270075274).
 
 - Thanks to Adobe Systems Incorporated for the royalty free [Astra](https://www.mixamo.com/#/?page=1&query=astra&type=Character) and Mixamo animations.
 
