@@ -22,11 +22,13 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 ## Open Sources
 
-- Thanks to [AJ Keller](https://www.linkedin.com/in/andrewjaykeller/) and [Alex Castillo](https://www.linkedin.com/in/alexcas/) for the [Neurosity SDK](https://docs.neurosity.co/docs/overview). 
+- Thanks to [AJ Keller](https://www.linkedin.com/in/andrewjaykeller/) and [Alex Castillo](https://www.linkedin.com/in/alexcas/) for the open source [Neurosity SDK](https://docs.neurosity.co/docs/overview). 
 
-- Thanks to [Ryan Turney](https://github.com/ryanturney) for the [Notion SDK for Unity](https://github.com/ryanturney/notion-unity). 
+- Thanks to [Ryan Turney](https://github.com/ryanturney) for the opens source [Notion SDK for Unity](https://github.com/ryanturney/notion-unity). 
 
 - Thanks to [Michał Karbowiak](https://karboosx.net/) for the free [Sci-Fi Styled Modular Pack](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913).
+
+- Thanks to [Robson Cozendey](https://www.cozendey.com/) for the free [Sci-Fi Music Loops Pack](https://assetstore.unity.com/packages/audio/music/electronic/sci-fi-music-loops-pack-120186).
 
 - Thanks to Unity Technologies for the [Unity Game Engine](https://unity.com//).
 
