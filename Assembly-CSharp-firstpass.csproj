@@ -56,49 +56,49 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\LSL.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\DamageText.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\LayoutGroup.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_RemovePhysics.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\Typewriter.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_AddPhysics.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_MenuItem.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Input\MText_InputSystemController.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\Countdown.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Classes\MText_ModuleContainer.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_LoopAnimation.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_List.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Utilities\MText_FindResource.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_Button.cs" />
     <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\MText_KernPair.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_RaycastSelector.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Classes\MText_MeshLayout.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Utilities\MText_MeshCombiner.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_GetCharacterObject.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Utilities\MText_Settings.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\LayoutElement.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_HorizontalSelector.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\DelayCallCleanUp.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\MText_Font.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\MText_KernPairHolder.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modular3DText.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_Letter.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_Module.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_TextUpdater.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_PlayParticles.cs" />
     <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Utilities\MText_Utilities.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\CircularLayoutGroup.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_RaycastSelectorInputProcessor.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_Slider.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\Countdown.cs" />
     <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_Character.cs" />
     <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_Toggle.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_ScaleChange.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\MeshBaseSize.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_InputField.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\LinearLayoutGroup.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\StatusToolTip.cs" />
-    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_SliderHandle.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Classes\MText_ModuleContainer.cs" />
     <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\GridLayoutGroup.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\MText_Font.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_ScaleChange.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_List.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\LinearLayoutGroup.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_RaycastSelector.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Utilities\MText_Settings.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\DamageText.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Utilities\MText_FindResource.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_Slider.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\DelayCallCleanUp.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_Module.cs" />
+    <Compile Include="Assets\Plugins\LSL.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\LayoutElement.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_TextUpdater.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\MeshBaseSize.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\StatusToolTip.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Utilities\MText_MeshCombiner.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_HorizontalSelector.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modular3DText.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Examples\Typewriter.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Input\MText_InputSystemController.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_Button.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_RemovePhysics.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\MText_KernPairHolder.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\LayoutGroup.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_GetCharacterObject.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_PlayParticles.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_InputField.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_SliderHandle.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Modules\MText_Module_AddPhysics.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_MenuItem.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_LoopAnimation.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Classes\MText_MeshLayout.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_Letter.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\MText_UI_RaycastSelectorInputProcessor.cs" />
+    <Compile Include="Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Layout\CircularLayoutGroup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\res\values\google-services.xml" />
@@ -289,6 +289,9 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Editor-Only Font Creator">
+      <HintPath>Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\Editor-Only Font Creator.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.App">
       <HintPath>Library\PackageCache\com.google.firebase.app@4d308ac4ec34\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
@@ -315,9 +318,6 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Library\PackageCache\com.google.firebase.auth@cf089946267a\Firebase\Plugins\Firebase.Auth.dll</HintPath>
-    </Reference>
-    <Reference Include="Editor-Only Font Creator">
-      <HintPath>Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\Editor-Only Font Creator.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

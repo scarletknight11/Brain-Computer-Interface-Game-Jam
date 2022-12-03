@@ -56,108 +56,109 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BCI\SPOScripts\MITrainingSPO.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\PSD.cs" />
-    <Compile Include="Assets\BCI\ControllerScripts\SSVEPController.cs" />
-    <Compile Include="Assets\Ardity\Scripts\Threads\AbstractSerialThread.cs" />
+    <Compile Include="Assets\BCI\SPOScripts\MITrainingSPO.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\PowerByBand.cs" />
     <Compile Include="Assets\Ardity\Scripts\Samples\SampleCustomDelimiter.cs" />
     <Compile Include="Assets\BCI\SPOScripts\SwitchSPO.cs" />
     <Compile Include="Assets\Ardity\Scripts\Samples\SampleUserPolling_ReadWrite.cs" />
+    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_VRCam.cs" />
+    <Compile Include="Assets\Ardity\Scripts\Samples\SampleUserPolling_JustRead.cs" />
+    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
+    <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\BaseInlet.cs" />
+    <Compile Include="Assets\BCI\Matrix_Setup.cs" />
+    <Compile Include="Assets\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\SettingsHandler.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Types\EpochInfo.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\SignalQualityHandler.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\KinesisHandler.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\FocusHandler.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\LSL.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\SubscriptionManager.cs" />
+    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_Cursor.cs" />
+    <Compile Include="Assets\Ardity\Scripts\Threads\SerialThreadCustomDelimiter.cs" />
+    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_ListTest.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\BrainwavesRawHandler.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLTimeSync.cs" />
+    <Compile Include="Assets\BCI\ControllerScripts\SwitchController.cs" />
+    <Compile Include="Assets\BCI\SPOScripts\ExtendedSPO.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Types\Accelerometer.cs" />
+    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_ModuleTutorial.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Resolver.cs" />
+    <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Types\Focus.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Demos\RandomMarker.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Types\Epoch.cs" />
+    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_FontTest.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Examples\TransformMapping.cs" />
+    <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Demos\LSLTransformDemoOutlet.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Device.cs" />
+    <Compile Include="Assets\Ardity\Scripts\SerialController.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\IMetricHandler.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\AccelerometerHandler.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Notion.cs" />
+    <Compile Include="Assets\Ardity\Scripts\Threads\SerialThread.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLOutlet.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Types\DeviceStatus.cs" />
+    <Compile Include="Assets\Scripts\Template\NotionInterfacer.cs" />
+    <Compile Include="Assets\Scripts\Template\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\Types\Kinesis.cs" />
+    <Compile Include="Assets\Scripts\Notion-Unity\NeurosityUser.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Examples\DemoInletForFloatSamples.cs" />
+    <Compile Include="Assets\BCI\ControllerScripts\P300Controller.cs" />
+    <Compile Include="Assets\Scripts\Template\CalmCube.cs" />
+    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Examples\ScaleMapping.cs" />
+    <Compile Include="Assets\BCI\ControllerScripts\SSVEPController.cs" />
+    <Compile Include="Assets\Ardity\Scripts\Threads\AbstractSerialThread.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\Ardity\Scripts\Samples\SampleTearDown.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\BrainwavesPSDHandler.cs" />
-    <Compile Include="Assets\Ardity\Scripts\Samples\SampleUserPolling_JustRead.cs" />
+    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\AutoUpdateInputSystemToSampleScene.cs" />
     <Compile Include="Assets\Scripts\Template\TitleScreenGUI.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Examples\ExampleFloatInlet.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
-    <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\BaseInlet.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLMarkerStreamOld.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\ISettingsHandler.cs" />
-    <Compile Include="Assets\BCI\Matrix_Setup.cs" />
-    <Compile Include="Assets\MenuController.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\Settings.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\SettingsHandler.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Types\EpochInfo.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\SignalQualityHandler.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Demos\StreamInfo.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\KinesisHandler.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\FocusHandler.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\LSL.cs" />
     <Compile Include="Assets\Ardity\Scripts\Samples\SampleMessageListener.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\SubscriptionManager.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Ardity\Scripts\Threads\SerialThreadCustomDelimiter.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\ChannelQuality.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\BrainwavesRawHandler.cs" />
     <Compile Include="Assets\BCI\ControllerScripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\PSDInfo.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Demos\CubeRotation.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLTimeSync.cs" />
-    <Compile Include="Assets\BCI\ControllerScripts\SwitchController.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\PowerByBandData.cs" />
-    <Compile Include="Assets\BCI\SPOScripts\ExtendedSPO.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Types\Accelerometer.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\FirebaseController.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Resolver.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_Announcement.cs" />
     <Compile Include="Assets\BCI\SPOScripts\SPO.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Types\Focus.cs" />
     <Compile Include="Assets\Ardity\Scripts\Threads\SerialThreadLines.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Demos\RandomMarker.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\BaseMetric.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Types\Epoch.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Examples\TransformMapping.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\CalmHandler.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Demos\LSLTransformDemoOutlet.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Device.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\BrainwavesRawUnfilteredHandler.cs" />
-    <Compile Include="Assets\Ardity\Scripts\SerialController.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\IMetricHandler.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Handlers\AccelerometerHandler.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\AInlet.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Notion.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\Metrics.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\Calm.cs" />
     <Compile Include="Assets\BCI\LSL\LSLMarkerStream.cs" />
     <Compile Include="Assets\Scripts\Template\NeuroHUD.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLMarkerStreamOld (2).cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSL_P300.cs" />
-    <Compile Include="Assets\Ardity\Scripts\Threads\SerialThread.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLTransformOutlet.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLOutlet.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Types\DeviceStatus.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\LSLCommon.cs" />
-    <Compile Include="Assets\Scripts\Template\NotionInterfacer.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Types\DeviceInfo.cs" />
     <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\ScriptOrder.cs" />
-    <Compile Include="Assets\Scripts\Template\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\MetricExtentions.cs" />
     <Compile Include="Assets\Ardity\Scripts\SerialControllerCustomDelimiter.cs" />
     <Compile Include="Assets\BCI\LSL\LSLResponseStream.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\Types\Kinesis.cs" />
     <Compile Include="Assets\BCI\ControllerScripts\MIController.cs" />
-    <Compile Include="Assets\Scripts\Notion-Unity\NeurosityUser.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Examples\DemoInletForFloatSamples.cs" />
-    <Compile Include="Assets\BCI\ControllerScripts\P300Controller.cs" />
-    <Compile Include="Assets\Scripts\Template\CalmCube.cs" />
-    <Compile Include="Assets\BCI\LSL\LSL4Unity\Scripts\Examples\ScaleMapping.cs" />
     <Compile Include="Assets\Scripts\Notion-Unity\Handlers\BrainwavesPowerByBandHandler.cs" />
     <Compile Include="Assets\BCI\ControllerScripts\Controller.cs" />
     <Compile Include="Assets\Scripts\Template\FocusSphere.cs" />
-    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_ListTest.cs" />
-    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_FontTest.cs" />
-    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\AutoUpdateInputSystemToSampleScene.cs" />
-    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_Announcement.cs" />
-    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_ModuleTutorial.cs" />
-    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_VRCam.cs" />
-    <Compile Include="Assets\Tiny Giant Studio\Modular 3D Text\Scripts\Sample Scene\MText_SampleScene_Cursor.cs" />
+    <Compile Include="Assets\Particle Effects\Misc Effects\Scripts\SpawnEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -166,9 +167,12 @@
     <None Include="Assets\BCI\LSL\LSL4Unity\Plugins\liblsl32.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Particle Effects\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets\Tiny Giant Studio\Modular 3D Text\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
+    <None Include="Assets\Particle Effects\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\Particle Effects\Misc Effects\Shaders\Respawn.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -180,6 +184,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Particle Effects\Misc Effects\Shaders\FireFly.shader" />
     <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
     <None Include="Assets\Sci-Fi Music Pack\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -188,6 +193,7 @@
     <None Include="Assets\BCI\LSL\LSL4Unity\Plugins\liblsl64.dll" />
     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Particle Effects\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -371,6 +377,9 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Editor-Only Font Creator">
+      <HintPath>Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\Editor-Only Font Creator.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.App">
       <HintPath>Library\PackageCache\com.google.firebase.app@4d308ac4ec34\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
@@ -397,9 +406,6 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Library\PackageCache\com.google.firebase.auth@cf089946267a\Firebase\Plugins\Firebase.Auth.dll</HintPath>
-    </Reference>
-    <Reference Include="Editor-Only Font Creator">
-      <HintPath>Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\Editor-Only Font Creator.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
