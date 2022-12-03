@@ -122,6 +122,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:MODULAR_3D_TEXT
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:IL2CPP_LEGACY_API_PRESENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -355,6 +356,10 @@
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Parse/Plugins/dotNet45/Unity.Tasks.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.auth@cf089946267a/Firebase/Plugins/Firebase.Auth.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.database@b5f3ce3f1dd7/Firebase/Plugins/Firebase.Database.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.SysrootPackage.Editor.ref.dll"
