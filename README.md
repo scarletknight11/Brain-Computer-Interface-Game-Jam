@@ -7,6 +7,13 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 [Insert a gif here]
 
+## Special Instructions for Use
+
+This game requires an internet connection to work with the Neurosity Crown.
+
+[Fill this in if necessary]
+[Arduino specs or anything, maybe?]
+
 ## Developers
 
 - [Sanjit Singh](https://github.com/scarletknight11) [Insert Bio blurb here]
@@ -14,11 +21,6 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 - [Diego Saldivar](https://github.com/neurogamedev) Neuro Game Developer | Assistant Prof. of Interactive Media @ Noroff University College (Norway)
 
 - [Faiyaz Ahmed](https://github.com/Faiyaz42) [Insert Bio blurb here]
-
-## Special Instructions for Use
-
-[Fill this in if necessary]
-[Arduino specs or anything, maybe?]
 
 ## External Assets
 
