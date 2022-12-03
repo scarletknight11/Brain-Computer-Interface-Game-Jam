@@ -3,7 +3,7 @@
 ![GitHub](https://img.shields.io/github/release/scarletknight11/Brain-Computer-Interface-Game-Jam?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/scarletknight11/Brain-Computer-Interface-Game-Jam?style=for-the-badge)
 
-Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game was developed using the Neurosity Crown, Oculus Quest 2 and [@Sanjit, how do you call your experimental exoskeleton, again?].
+Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game was developed using the Neurosity Crown, Oculus Quest 2 and [@Sanjit, how do you call your experimental exoskeleton, again?]. This game has a continuous control BCI scheme.
 
 [Insert a gif here]
 
