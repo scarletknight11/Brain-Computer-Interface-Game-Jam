@@ -11,7 +11,7 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 - [Sanjit Singh](https://github.com/scarletknight11) [Insert Bio blurb here]
 
-- [Diego Saldivar](https://github.com/neurogamedev) Neuro Game Developer | Assistant Professor of Interactive Media @ Noroff University College (Norway)
+- [Diego Saldivar](https://github.com/neurogamedev) Neuro Game Developer | Assistant Prof. of Interactive Media @ Noroff University College (Norway)
 
 - [Faiyaz Ahmed](https://github.com/Faiyaz42) [Insert Bio blurb here]
 
