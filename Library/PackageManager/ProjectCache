@@ -1,313 +1,313 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/BCIGameJam/Packages/manifest.json
+    m_FilePath: C:/GitHub/Brain-Computer-Interface-Game-Jam/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056486278129797
-    m_Hash: 90286261
+      ticks: 638056539245573768
+    m_Hash: 1858028704
   m_LockFileStatus:
-    m_FilePath: D:/BCIGameJam/Packages/packages-lock.json
+    m_FilePath: C:/GitHub/Brain-Computer-Interface-Game-Jam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056486278438243
-    m_Hash: 578612937
+      ticks: 638056539245583759
+    m_Hash: 1733181229
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.external-dependency-manager-1.2.171.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.external-dependency-manager-1.2.171.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.external-dependency-manager-1.2.171.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.external-dependency-manager-1.2.171.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056434444527235
+      ticks: 638056470579748214
     m_Hash: 4115917497
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.firebase.app-9.1.0.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.app-9.1.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.firebase.app-9.1.0.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.app-9.1.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056434461436472
+      ticks: 638056470583804160
     m_Hash: 2357202743
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.firebase.auth-9.1.0.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.auth-9.1.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.firebase.auth-9.1.0.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.auth-9.1.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056434462396988
+      ticks: 638056470584070833
     m_Hash: 3883368412
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.firebase.database-9.1.0.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.database-9.1.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\com.google.firebase.database-9.1.0.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.database-9.1.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056434462708731
+      ticks: 638056470584368554
     m_Hash: 3810056845
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.6.0.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.6.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.6.0.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.6.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030434388650194
+      ticks: 638056428010828228
     m_Hash: 1398826714
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.accessibility-1.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.accessibility-1.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.accessibility-1.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.accessibility-1.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463669465842
+      ticks: 638056428010838273
     m_Hash: 410945214
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.audio-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.audio-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.audio-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.audio-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463669490874
+      ticks: 638056428010838273
     m_Hash: 1167753332
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.core-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.core-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.core-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.core-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463669986545
+      ticks: 638056428010848282
     m_Hash: 36480044
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.data-1.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.data-1.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.data-1.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.data-1.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463671385051
+      ticks: 638056428010858276
     m_Hash: 4237044724
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.diagnostics-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.diagnostics-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.diagnostics-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.diagnostics-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463670403083
+      ticks: 638056428010858276
     m_Hash: 2201205059
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.extendedassets-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.extendedassets-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.extendedassets-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.extendedassets-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463750335858
+      ticks: 638056428012735307
     m_Hash: 3174026990
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637914329567032123
+      ticks: 638056428013125689
     m_Hash: 4244666502
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.input-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.input-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.input-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.input-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463679361734
+      ticks: 638056428013356089
     m_Hash: 587283534
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463671792276
+      ticks: 638056428013366079
     m_Hash: 2697381371
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.standardassets-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.standardassets-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.standardassets-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.standardassets-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463679782947
+      ticks: 638056428013541336
     m_Hash: 3913344159
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.tools-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.tools-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.tools-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.tools-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463672733454
+      ticks: 638056428013541336
     m_Hash: 1655337916
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463671426884
+      ticks: 638056428013561349
     m_Hash: 2353402014
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents.noncanvas-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents.noncanvas-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents.noncanvas-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents.noncanvas-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463670693794
+      ticks: 638056428013578806
     m_Hash: 561991176
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcore-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcore-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcore-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcore-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463672088882
+      ticks: 638056428013578806
     m_Hash: 1019911200
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.windowsspeech-3.0.0-pre.12.tgz/package.json
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.windowsspeech-3.0.0-pre.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.windowsspeech-3.0.0-pre.12.tgz
+  - m_FilePath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.windowsspeech-3.0.0-pre.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638030463672194016
+      ticks: 638056428013589486
     m_Hash: 3518192497
-m_ProjectPath: D:/BCIGameJam/Packages
+m_ProjectPath: C:/GitHub/Brain-Computer-Interface-Game-Jam/Packages
 m_EditorVersion: 2021.3.4f1 (cb45f9cae8b7)
 m_ResolvedPackages:
-- packageId: com.google.external-dependency-manager@file:D:\BCIGameJam\Packages\com.google.external-dependency-manager-1.2.171.tgz
+- packageId: com.google.external-dependency-manager@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.external-dependency-manager-1.2.171.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.2.171
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.google.external-dependency-manager@0644806af73d
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.google.external-dependency-manager@0644806af73d
   assetPath: Packages/com.google.external-dependency-manager
   name: com.google.external-dependency-manager
   displayName: External Dependency Manager for Unity
@@ -361,12 +361,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.google.firebase.app@file:D:\BCIGameJam\Packages\com.google.firebase.app-9.1.0.tgz
+- packageId: com.google.firebase.app@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.app-9.1.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 9.1.0
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.google.firebase.app@4d308ac4ec34
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.google.firebase.app@4d308ac4ec34
   assetPath: Packages/com.google.firebase.app
   name: com.google.firebase.app
   displayName: Firebase App (Core)
@@ -414,12 +414,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.google.firebase.auth@file:D:\BCIGameJam\Packages\com.google.firebase.auth-9.1.0.tgz
+- packageId: com.google.firebase.auth@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.auth-9.1.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 9.1.0
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.google.firebase.auth@cf089946267a
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.google.firebase.auth@cf089946267a
   assetPath: Packages/com.google.firebase.auth
   name: com.google.firebase.auth
   displayName: Firebase Authentication
@@ -478,12 +478,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.google.firebase.database@file:D:\BCIGameJam\Packages\com.google.firebase.database-9.1.0.tgz
+- packageId: com.google.firebase.database@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\com.google.firebase.database-9.1.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 9.1.0
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.google.firebase.database@b5f3ce3f1dd7
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.google.firebase.database@b5f3ce3f1dd7
   assetPath: Packages/com.google.firebase.database
   name: com.google.firebase.database
   displayName: Firebase Realtime Database
@@ -548,12 +548,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mixedreality.openxr@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.6.0.tgz
+- packageId: com.microsoft.mixedreality.openxr@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.6.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.6.0
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mixedreality.openxr@d54292e2604a
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mixedreality.openxr@d54292e2604a
   assetPath: Packages/com.microsoft.mixedreality.openxr
   name: com.microsoft.mixedreality.openxr
   displayName: Mixed Reality OpenXR Plugin
@@ -644,12 +644,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.accessibility@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.accessibility-1.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.accessibility@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.accessibility-1.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.accessibility@7e259191405e
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.accessibility@7e259191405e
   assetPath: Packages/com.microsoft.mrtk.accessibility
   name: com.microsoft.mrtk.accessibility
   displayName: MRTK Accessibility Early Preview
@@ -743,12 +743,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.audio@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.audio-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.audio@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.audio-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.audio@f67f3ae3c842
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.audio@f67f3ae3c842
   assetPath: Packages/com.microsoft.mrtk.audio
   name: com.microsoft.mrtk.audio
   displayName: MRTK Audio Effects
@@ -835,12 +835,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.core@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.core-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.core@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.core-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.core@7412c1db3011
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.core@7412c1db3011
   assetPath: Packages/com.microsoft.mrtk.core
   name: com.microsoft.mrtk.core
   displayName: MRTK Core Definitions
@@ -922,12 +922,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.data@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.data-1.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.data@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.data-1.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.data@a83020c75cfd
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.data@a83020c75cfd
   assetPath: Packages/com.microsoft.mrtk.data
   name: com.microsoft.mrtk.data
   displayName: MRTK Data Binding and Theming Early Preview
@@ -1024,12 +1024,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.diagnostics@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.diagnostics-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.diagnostics@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.diagnostics-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.diagnostics@518a2d93941a
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.diagnostics@518a2d93941a
   assetPath: Packages/com.microsoft.mrtk.diagnostics
   name: com.microsoft.mrtk.diagnostics
   displayName: MRTK Diagnostics
@@ -1110,12 +1110,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.extendedassets@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.extendedassets-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.extendedassets@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.extendedassets-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.extendedassets@db42eeed21fa
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.extendedassets@db42eeed21fa
   assetPath: Packages/com.microsoft.mrtk.extendedassets
   name: com.microsoft.mrtk.extendedassets
   displayName: MRTK Extended Assets
@@ -1163,12 +1163,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.graphicstools.unity@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
+- packageId: com.microsoft.mrtk.graphicstools.unity@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 0.4.0
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.graphicstools.unity@b8cb5dc7a3c3
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.graphicstools.unity@b8cb5dc7a3c3
   assetPath: Packages/com.microsoft.mrtk.graphicstools.unity
   name: com.microsoft.mrtk.graphicstools.unity
   displayName: MRTK Graphics Tools
@@ -1218,12 +1218,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.input@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.input-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.input@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.input-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.input@69627326f147
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.input@69627326f147
   assetPath: Packages/com.microsoft.mrtk.input
   name: com.microsoft.mrtk.input
   displayName: MRTK Input
@@ -1329,12 +1329,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.spatialmanipulation@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.spatialmanipulation@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.spatialmanipulation@ab1c6d4f1bcb
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.spatialmanipulation@ab1c6d4f1bcb
   assetPath: Packages/com.microsoft.mrtk.spatialmanipulation
   name: com.microsoft.mrtk.spatialmanipulation
   displayName: MRTK Spatial Manipulation
@@ -1425,12 +1425,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.standardassets@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.standardassets-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.standardassets@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.standardassets-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.standardassets@6030bdfe9a70
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.standardassets@6030bdfe9a70
   assetPath: Packages/com.microsoft.mrtk.standardassets
   name: com.microsoft.mrtk.standardassets
   displayName: MRTK Standard Assets
@@ -1475,12 +1475,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.tools@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.tools-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.tools@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.tools-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.tools@f58fe2129edb
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.tools@f58fe2129edb
   assetPath: Packages/com.microsoft.mrtk.tools
   name: com.microsoft.mrtk.tools
   displayName: MRTK Tools
@@ -1559,12 +1559,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.uxcomponents@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.uxcomponents@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.uxcomponents@5d7ea446d314
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.uxcomponents@5d7ea446d314
   assetPath: Packages/com.microsoft.mrtk.uxcomponents
   name: com.microsoft.mrtk.uxcomponents
   displayName: MRTK UX Components
@@ -1658,12 +1658,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.uxcomponents.noncanvas@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents.noncanvas-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.uxcomponents.noncanvas@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcomponents.noncanvas-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.uxcomponents.noncanvas@9e64a68ba572
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.uxcomponents.noncanvas@9e64a68ba572
   assetPath: Packages/com.microsoft.mrtk.uxcomponents.noncanvas
   name: com.microsoft.mrtk.uxcomponents.noncanvas
   displayName: MRTK UX Components (Non-Canvas)
@@ -1759,12 +1759,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.uxcore@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.uxcore-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.uxcore@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.uxcore-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.uxcore@c3191ca7f192
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.uxcore@c3191ca7f192
   assetPath: Packages/com.microsoft.mrtk.uxcore
   name: com.microsoft.mrtk.uxcore
   displayName: MRTK UX Core Scripts
@@ -1860,12 +1860,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.microsoft.mrtk.windowsspeech@file:D:\BCIGameJam\Packages\MixedReality\com.microsoft.mrtk.windowsspeech-3.0.0-pre.12.tgz
+- packageId: com.microsoft.mrtk.windowsspeech@file:C:\GitHub\Brain-Computer-Interface-Game-Jam\Packages\MixedReality\com.microsoft.mrtk.windowsspeech-3.0.0-pre.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0-pre.12
   source: 6
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.microsoft.mrtk.windowsspeech@73a374da0f8f
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.microsoft.mrtk.windowsspeech@73a374da0f8f
   assetPath: Packages/com.microsoft.mrtk.windowsspeech
   name: com.microsoft.mrtk.windowsspeech
   displayName: MRTK Windows Speech Recognition
@@ -1950,7 +1950,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.8.9
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.cinemachine@2.8.9
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.cinemachine@2.8.9
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -2103,7 +2103,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.16
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.ide.rider@3.0.16
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.ide.rider@3.0.16
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -2189,7 +2189,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.16
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -2267,7 +2267,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -2328,7 +2328,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -2493,7 +2493,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.3
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.3
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.3
   assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
   name: com.unity.toolchain.win-x86_64-linux-x86_64
   displayName: Toolchain Win Linux x64
@@ -2595,7 +2595,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2657,7 +2657,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.2.1
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.xr.management@4.2.1
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.xr.management@4.2.1
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -2786,7 +2786,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 13.0.102
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\jillejr.newtonsoft.json-for-unity@13.0.102
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\jillejr.newtonsoft.json-for-unity@13.0.102
   assetPath: Packages/jillejr.newtonsoft.json-for-unity
   name: jillejr.newtonsoft.json-for-unity
   displayName: Json.NET 13.0.1 for Unity
@@ -2862,7 +2862,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2910,7 +2910,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2958,7 +2958,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3006,7 +3006,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3054,7 +3054,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -3102,7 +3102,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3150,7 +3150,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3206,7 +3206,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3255,7 +3255,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3307,7 +3307,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3369,7 +3369,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3429,7 +3429,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.9
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -3525,7 +3525,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.0
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.subsystemregistration@1.1.0
   assetPath: Packages/com.unity.subsystemregistration
   name: com.unity.subsystemregistration
   displayName: Subsystem Registration
@@ -3534,7 +3534,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Provides internal registration mechanism for standalone subsystems. 
     It allows a standalone subsystem to inform the Subsystem Manager of its existence.
   status: 4
@@ -3572,7 +3572,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637314426150000000
   documentationUrl: 
@@ -3590,7 +3590,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3638,7 +3638,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3686,7 +3686,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.4
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.sysroot@2.0.4
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.sysroot@2.0.4
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3769,7 +3769,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.3
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.3
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.3
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -3851,7 +3851,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3915,7 +3915,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.31
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4022,7 +4022,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4082,7 +4082,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.3
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.3
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.3
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -4228,7 +4228,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.2.6
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.xr.arfoundation@4.2.6
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.xr.arfoundation@4.2.6
   assetPath: Packages/com.unity.xr.arfoundation
   name: com.unity.xr.arfoundation
   displayName: AR Foundation
@@ -4421,7 +4421,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.xr.core-utils@2.1.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.xr.core-utils@2.1.0
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -4506,7 +4506,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.2
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4574,7 +4574,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.3
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.xr.openxr@1.5.3
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.xr.openxr@1.5.3
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -4683,7 +4683,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -4742,7 +4742,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.2.6
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.xr.arsubsystems@4.2.6
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.xr.arsubsystems@4.2.6
   assetPath: Packages/com.unity.xr.arsubsystems
   name: com.unity.xr.arsubsystems
   displayName: AR Subsystems
@@ -4901,7 +4901,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.2
   source: 1
-  resolvedPath: D:\BCIGameJam\Library\PackageCache\com.unity.inputsystem@1.4.2
+  resolvedPath: C:\GitHub\Brain-Computer-Interface-Game-Jam\Library\PackageCache\com.unity.inputsystem@1.4.2
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
