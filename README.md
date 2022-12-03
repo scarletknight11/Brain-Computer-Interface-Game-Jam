@@ -46,6 +46,7 @@ This game requires an internet connection to work with the Neurosity Crown.
 
 ## Dependencies
 * [Unity 2022.1.5f1](https://unity3d.com/get-unity/download/archive)
+* [Mixed Reality Toolkit 3](https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-overview/)
 * [Firebase for Unity Authentication](https://developers.google.com/unity/packages#firebase_authentication)
 * [Firebase for Unity Realtime Database](https://developers.google.com/unity/packages#firebase_realtime_database)
 * [Json.NET by jilleJr](https://github.com/jilleJr/Newtonsoft.Json-for-Unity)
