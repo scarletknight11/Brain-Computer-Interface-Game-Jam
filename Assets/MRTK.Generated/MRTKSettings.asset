@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8191f16afdb1f0547a1827e9909cbee3, type: 3}
+  m_Script: {fileID: 0}
   m_Name: MRTKSettings
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Microsoft.MixedReality.Toolkit.Core.Editor:Microsoft.MixedReality.Toolkit.Editor:MRTKSettings
   settings:
-    entries:
-    - key: 7
-      value: {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
+    entries: []
   buildPreferences:
     appLauncherModel: {fileID: 0}
