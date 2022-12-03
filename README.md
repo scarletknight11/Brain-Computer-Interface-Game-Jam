@@ -16,11 +16,11 @@ This game requires an internet connection to work with the Neurosity Crown.
 
 ## Developers
 
-- [Sanjit Singh](https://github.com/scarletknight11) [Insert Bio blurb here]
+[Sanjit Singh](https://github.com/scarletknight11) [Insert Bio blurb here]
 
-- [Diego Saldivar](https://github.com/neurogamedev) Neuro Game Developer | Assistant Prof. of Interactive Media @ Noroff University College (Norway)
+[Diego Saldivar](https://github.com/neurogamedev) Neuro Game Developer | Assistant Prof. of Interactive Media @ Noroff University College (Norway)
 
-- [Faiyaz Ahmed](https://github.com/Faiyaz42) [Insert Bio blurb here]
+[Faiyaz Ahmed](https://github.com/Faiyaz42) [Insert Bio blurb here]
 
 ## External Assets
 
