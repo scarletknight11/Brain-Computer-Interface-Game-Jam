@@ -20,7 +20,7 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 [Fill this in if necessary]
 [Arduino specs or anything, maybe?]
 
-## Open Sources
+## External Assets
 
 - Thanks to [AJ Keller](https://www.linkedin.com/in/andrewjaykeller/) and [Alex Castillo](https://www.linkedin.com/in/alexcas/) for the open source [Neurosity SDK](https://docs.neurosity.co/docs/overview). 
 
