@@ -24,16 +24,11 @@ namespace Notion.Unity
         public GameObject panelTitle;
         public GameObject panelSettings;
         public GameObject panelCredits;
-        public Button buttonSettings;
-        public Button buttonCredits;
 
         [Header("Login Info")]
         public GameObject panelLogin;
         public TMP_InputField inputEmail;
         public TMP_InputField inputPassword;
-        public Button buttonPasswordVisibility;
-        public Sprite eyeOpenSprite;            // This is an asset, not in the scene.
-        public Sprite eyeSlashSprite;           // This is an asset, not in the scene.
         public Button buttonLogin;
         public Toggle toggleRememberUser;
         public GameObject panelInfo;
@@ -45,7 +40,6 @@ namespace Notion.Unity
         public Button buttonSelect;
 
         [Header("Device Status")]
-        public GameObject panelInstructions;
         public GameObject panelStatus;
         public Image statusIcon;
         public TMP_Text deviceName;
@@ -66,11 +60,24 @@ namespace Notion.Unity
         // The panels we'll be puppeteering.
         private List<GameObject> canvasPanels;
 
-        // FAILSAFE. In the mobile version, we have to relog when we FoundLoggedDevice() and it's best if the Player doesn't touch anything while the process is ongoing.
-        bool settingsAllClear;
+        void OnEnable()
+        {      
+            // Look for the NotionInterfacer script where we'll get all of our values from. 
+            deviceInterface = FindObjectOfType<NotionInterfacer>();
 
-        async Task Start()
-        {
+            if(deviceInterface == null)
+            {
+                Debug.LogError("No Notion Interfacer could be found in the scene." , this);
+                return;
+            }
+
+            // If the Device instance is already logged in, you want to display its values in the settings.
+            // This may happen when coming from another scene.
+            if (deviceInterface.IsSubscribed) FoundLoggedDevice();
+
+            // Otherwise, check if there is any saved information in the DeviceData.dat file to autolog the user.
+            // This may happen if the Device instance IsRemembered and you're opening the game again.
+            else CheckDeviceMemory();
 
             // Let's put all canvas panels in one list for easy access later on.
             canvasPanels = new List<GameObject>();
@@ -83,47 +90,10 @@ namespace Notion.Unity
             // Even if the Settings panel is disabled when starting the game.
             CurrentService(panelLogin);
 
-            // Look for the NotionInterfacer script where we'll get all of our values from. 
-            deviceInterface = FindObjectOfType<NotionInterfacer>();
-
-            if(deviceInterface == null)
-            {
-                Debug.LogError("No Notion Interfacer could be found in the scene." , this);
-                return;
-            }
-
-            // If the Device instance is already logged in, you want to display its values in the settings.
-            // This may happen when coming from another scene.
-            if (deviceInterface.IsSubscribed)
-            {
-                //Let's purposefully stop the player from clicking buttons
-                settingsAllClear = false;
-
-                try
-                {
-                    await FoundLoggedDevice();
-                    //settingsAllClear = true;
-                }
-                catch (Exception e)
-                {
-                    Debug.Log(e);
-                }
-            }
-            // Otherwise, check if there is any saved information in the DeviceData.dat file to autolog the user.
-            // This may happen if the Device instance IsRemembered and you're opening the game again.
-            else
-            {
-                CheckDeviceMemory();
-                settingsAllClear = true;
-            }
-
             // Let's initialize all the buttons.
             buttonLogin.onClick.AddListener(delegate { LoginButton(deviceInterface.IsLoggedIn); }); 
-            buttonSelect.onClick.AddListener(delegate { SelectDevice(dropdownDevices.captionText.text); });
-            buttonPasswordVisibility.onClick.AddListener(TogglePasswordVisibility);
-            buttonPasswordVisibility.onClick.RemoveListener(TogglePasswordVisibility);
+            buttonSelect.onClick.AddListener(delegate { SelectDevice(dropdownDevices.captionText.text); }); 
             toggleRememberUser.onValueChanged.AddListener(delegate { RememberUser(toggleRememberUser.isOn); });
-
         }
 
         ///////////////////////////////////
@@ -159,6 +129,12 @@ namespace Notion.Unity
             }
         }
 
+        // Method for the QUIT button. 
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
+
 
         ///////////////////////////////////
 
@@ -166,30 +142,11 @@ namespace Notion.Unity
         //// FOR THE PANEL 02 BUTTONS ////
 
         //////////////////////////////////
-        
-        // Method to toggle passowrd visibility.
-        public void TogglePasswordVisibility()
-        {
-            if(inputPassword.contentType == TMP_InputField.ContentType.Standard)
-            {
-                inputPassword.contentType = TMP_InputField.ContentType.Password;
-                buttonPasswordVisibility.GetComponent<Image>().sprite = eyeSlashSprite;
-            }
-            else if (inputPassword.contentType == TMP_InputField.ContentType.Password)
-            {
-                inputPassword.contentType = TMP_InputField.ContentType.Standard; 
-                buttonPasswordVisibility.GetComponent<Image>().sprite = eyeOpenSprite; 
-            }
-
-            inputPassword.Select();
-        }
 
         // Method for the IsRemembered boolean.
         public void RememberUser(bool IsRemembered)
         {
             deviceInterface.Remember(IsRemembered);
-            deviceInterface.SaveDevice();
-
         }
 
         // Method for the Login button.
@@ -203,7 +160,7 @@ namespace Notion.Unity
                 }
                 catch (Exception e)
                 {
-                    Debug.Log(e);
+                    Debug.Log(e.InnerException.Message.ToString());
                 }
             }
             else
@@ -225,7 +182,6 @@ namespace Notion.Unity
         // Method for the Select Device button.
         public async void SelectDevice(string selectedDeviceNickname)
         {
-
             try // Let's try to stream data from the selected device.
             {
                 buttonSelect.interactable = false;
@@ -246,8 +202,6 @@ namespace Notion.Unity
                 buttonSelect.GetComponentInChildren<TMP_Text>().text = "Select";
                 Debug.Log(e.ToString());
             }
-
-            deviceInterface.SaveDevice();
         }
 
         // Method for the Logout button... which is the Login button after we are succesfully logged in.
@@ -255,7 +209,7 @@ namespace Notion.Unity
         {
             CurrentService(panelLogin);
 
-            try // Let's try to log out.
+            try // Let's try to log in.
             {
                 buttonLogin.interactable = false;
                 buttonLogin.GetComponentInChildren<TMP_Text>().text = "Logging out...";
@@ -290,9 +244,8 @@ namespace Notion.Unity
 
         // If the player comes from a different scene with an already logged in Device instance,
         // we want to display this info in the settings panel in the background. Just incase they check.
-        private async Task FoundLoggedDevice()
+        private async void FoundLoggedDevice()
         {
-            
             // SANITY CHECKS by Justin Case.
             if (deviceInterface == null) return;
             if (deviceInterface.IsLoggedIn == false) return;
@@ -302,13 +255,47 @@ namespace Notion.Unity
             inputEmail.text = deviceInterface.GetDeviceEmail();
             inputPassword.text = deviceInterface.GetDevicePassword();
             toggleRememberUser.isOn = deviceInterface.IsRemembered;
-            string rememberedDeviceNickname = deviceInterface.selectedDeviceNickname;
 
-            // Device must relog to avoid UI glitches later on.
-            await Logout();
-            await Login();
-            SelectDevice(rememberedDeviceNickname);
-            settingsAllClear = true;
+            // Let's make a show of accessing the devices in the account, in case the player wants to switch devices.
+            CurrentService(panelDevices);
+            dropdownDevices.ClearOptions();
+            var placeholderOption = new List<TMP_Dropdown.OptionData>();
+            placeholderOption.Add(new TMP_Dropdown.OptionData("Fetching devices..."));
+            dropdownDevices.AddOptions(placeholderOption);
+            dropdownDevices.RefreshShownValue();
+
+            try
+            {
+                var devicesInfo = await deviceInterface.notion.GetDevices();
+                var fetchedDevices = new List<TMP_Dropdown.OptionData>();
+
+                foreach (DeviceInfo device in devicesInfo)
+                {
+                    fetchedDevices.Add(new TMP_Dropdown.OptionData(device.DeviceNickname));
+                }
+
+                dropdownDevices.ClearOptions();
+                dropdownDevices.AddOptions(fetchedDevices);
+                dropdownDevices.RefreshShownValue();
+
+                buttonLogin.GetComponentInChildren<TMP_Text>().text = "Logout";
+                buttonLogin.GetComponent<Image>().color = new Color(1f, 0.75f, 0.75f, 1f);
+                infoText.text = "";
+                buttonLogin.interactable = true;
+            }
+            catch (NullReferenceException) //If getting the devices was unsuccessful, let's inform the user.
+            {
+                CurrentService(panelLogin);
+                infoText.text = "No devices could be fetched.";
+                buttonLogin.GetComponentInChildren<TMP_Text>().text = "Login";
+                buttonLogin.GetComponent<Image>().color = new Color(1f, 1f, 1f, 1f);
+                buttonLogin.interactable = true;
+                return;
+            }
+
+            // And let's display the Status panel with the info of the already logged-in device.
+            CurrentService(panelStatus);
+
             return;
 
         }
@@ -352,7 +339,6 @@ namespace Notion.Unity
                 panelInfo.SetActive(true);
                 panelDevices.SetActive(false);
                 panelStatus.SetActive(false);
-                panelInstructions.SetActive(true);
                 return;
             }
 
@@ -362,7 +348,6 @@ namespace Notion.Unity
                 panelInfo.SetActive(false);
                 panelDevices.SetActive(true);
                 panelStatus.SetActive(false);
-                panelInstructions.SetActive(true);
                 return;
             }
 
@@ -372,7 +357,6 @@ namespace Notion.Unity
                 panelInfo.SetActive(false);
                 panelDevices.SetActive(true);
                 panelStatus.SetActive(true);
-                panelInstructions.SetActive(false);
                 return;
             }
         }
@@ -382,14 +366,12 @@ namespace Notion.Unity
         {
             try // Let's try to log in.
             {
-                deviceInterface.SaveDevice();
                 buttonLogin.interactable = false;
                 buttonLogin.GetComponentInChildren<TMP_Text>().text = "Logging in...";
                 await deviceInterface.Login(inputEmail.text, inputPassword.text);  
             } 
             catch (Exception e) // Otherwise tell the user what went wrong.
             {
-                Debug.Log(e);
                 infoText.text = e.InnerException.Message.ToString();
                 buttonLogin.GetComponentInChildren<TMP_Text>().text = "Login";
                 buttonLogin.GetComponent<Image>().color = new Color(1f, 1f, 1f, 1f);
@@ -414,7 +396,6 @@ namespace Notion.Unity
 
                 foreach (DeviceInfo device in devicesInfo)
                 {
-                    if (device == null) break;
                     fetchedDevices.Add(new TMP_Dropdown.OptionData(device.DeviceNickname));
                 }
 
@@ -512,8 +493,6 @@ namespace Notion.Unity
         void Update()
         {
             if (!deviceInterface) return;
-            
-            buttonSettings.interactable = settingsAllClear;
 
             if (panelStatus.activeSelf) 
             {

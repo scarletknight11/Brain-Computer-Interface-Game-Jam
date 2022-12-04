@@ -4,7 +4,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 /// <summary>
 /// This is code for a no-frills Heads-Up Display (HUD) that quickly informs the player of the device status and their Focus and Calm scores. 
@@ -125,22 +124,6 @@ namespace Notion.Unity
             if (batteryCharge <= 50 && batteryCharge > 25) return new Color(1, 0.5f, 0, 1);
 
             return Color.red;
-        }
-
-        // Method for the Main Menu button.
-        public void LoadStartMenu(string sceneName)
-        {
-            Time.timeScale = 1;                                     // Be sure to bring back a normal Timescale when you switch scenes!
-
-
-            if (SceneUtility.GetBuildIndexByScenePath(sceneName) != -1)                 // Sanity check.  
-            {
-                AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);      // Load the scene.
-            }
-            else
-            {
-                AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(0);              // If scene could not be found, just load the scene in BuildIndex 0. The one at the top of your Scenes in Build list.
-            }
         }
 
         // Update is called once per frame

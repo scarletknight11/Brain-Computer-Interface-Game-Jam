@@ -76,7 +76,6 @@ namespace Notion.Unity
         // The very basics we'll need for a neurogame.
         [Header("Device Information")]
 
-        public string selectedDeviceNickname;
         public string selectedDeviceId;
         public string deviceStatus;
         public float deviceBattery;
@@ -156,7 +155,6 @@ namespace Notion.Unity
 
         void SaveDeviceData()
         {
-
             // Turns out we can't serialize a Scriptable Object, id est, the Device class.
             // So, let's save our data in a Serializable class (SaveData) declared aaaall the way below.
             SaveData data = new SaveData();
@@ -592,11 +590,9 @@ namespace Notion.Unity
             }
         }
 
-
         // Let's logout when the script is disabled. Either by unchecking the Enable box in the Inspector or by stopping the game in the Editor.
         private async void OnDisable()
         {
-            
             if (notion == null) return;
             if (!notion.IsLoggedIn) return;
 
@@ -614,33 +610,16 @@ namespace Notion.Unity
 
                 Debug.Log(e.ToString());
             }
-            
+
         }
 
         // This saves the Device instance info when quitting the game if IsRemembered is true. 
         // The Device instance does not retain information in the Build, only in the Editor.
         // Thus the need to save and encrypt the SaveData.
-        private async void OnApplicationQuit()
+        private void OnApplicationQuit()
         {
-            if (notion == null) return;
-            if (!notion.IsLoggedIn) return;
-
-            // Wrapping because Logout is meant to be invoked and forgotten about for use in button callbacks.
-            // Also, you have to use try/catch to avoid having warnings and errors stop the game.
-            // Unity may still crash if too many warnings come up after a logout.
-            // I used a FixedUpdate() to reduce the number of calls that could be interrupted upon logout.
-            // You could also use AfterUpdate(). Consult Unity documentation to undertsand the difference.
-            try
-            {
-                await Task.Run(() => Logout());
-            }
-            catch (Exception e)
-            {
-
-                Debug.Log(e.ToString());
-            }
-
             ClearDeviceInfo();
+            SaveDeviceData(); 
         }
 
 
@@ -659,25 +638,11 @@ namespace Notion.Unity
             device.Email = _inputEmail;
             device.Password = _inputPassword;
 
-            try 
-            {
-                controller = new FirebaseController();
-                await controller.Initialize();
-            }
-            catch (Exception e)
-            {
-                Debug.Log(e);
-            }
+            controller = new FirebaseController();
+            await controller.Initialize();
 
-            try
-            {
-                notion = new Notion(controller);
-                await notion.Login(device);
-            }
-            catch (Exception e)
-            {
-                Debug.Log(e);
-            }
+            notion = new Notion(controller);
+            await notion.Login(device);
 
             IsLoggedIn = true;
 
@@ -745,7 +710,7 @@ namespace Notion.Unity
 
         // I conceived this method to be as user-friendly as possible.
         // This way we can send the name of the device instead of the super long Device ID.
-        public async Task SelectDevice( string inputDeviceNickname )
+        public async Task SelectDevice( string selectedDeviceNickname )
         {
             selectedDeviceId = "Fetching device...";
 
@@ -753,9 +718,8 @@ namespace Notion.Unity
 
             foreach ( DeviceInfo device in devicesInfo )
             {
-                if ( device.DeviceNickname == inputDeviceNickname )
+                if ( device.DeviceNickname == selectedDeviceNickname )
                 {
-                    selectedDeviceNickname = inputDeviceNickname;
                     this.device.DeviceId = device.DeviceId;
                     
                     controller = new FirebaseController();
@@ -772,6 +736,7 @@ namespace Notion.Unity
             }
         }
 
+
         // And the fun begins!
         // If you're adding subscriptions to other Handlers, be sure to update this method.
         public void Subscribe()
@@ -783,15 +748,6 @@ namespace Notion.Unity
             if ( subscribeToAccelerometer ) { SubscribeAccelerometer(); }
 
             IsSubscribed = true;
-        }
-
-        // To call from the outside in Main Threads.
-        // SaveDeviceData() accesses the persistentPath to save, which can only be done in the Main thread.
-        // So calling save data in async methods doesn't work.
-        // Take into account that the app requires explicit permission to access external memory like an SD Card.
-        public void SaveDevice()
-        {
-            SaveDeviceData();
         }
         
     }

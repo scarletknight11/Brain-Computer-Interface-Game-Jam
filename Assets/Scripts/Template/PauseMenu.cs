@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 
 /// <summary>
 /// This is the code for the pause menu that you can pop-up during gameplay.
-/// It has been modified to fit the mobile UI.
 /// </summary>
 namespace StarterAssets
 {
@@ -19,6 +18,13 @@ namespace StarterAssets
         // Your workflow will obviously vary depending on your game design.
         private StarterAssetsInputs starterAssetsInputs;
 
+        // This is where I added the Pause action in the Input Actions Template.
+        // Read the Starter Pack documentation in Assets > StarterAssets > Starter Assets_Documentation_v1.1.pdf
+        private TemplateInputActions inputActions;
+
+        // This action is mapped to the Esc key and to the Start button in a game controller.
+        private InputAction pause;
+
         // The foundation of this button.
         public static bool gameIsPaused;
 
@@ -26,26 +32,35 @@ namespace StarterAssets
         // !! This is the panel we want to activate and deactivate. Not its parent.
         public GameObject pauseMenu;
 
-        // This is the Panel with the UI_Canvas_StarterAssetsInputs_Joysticks gameObject from the Hierarchy.
-        //We want to disable it while the Pause Screen is up.
-        public GameObject mobileControls;
-
         // Let's get started!
         void Awake()
         {
             if (pauseMenu.activeSelf) pauseMenu.SetActive(false);
+            inputActions = new TemplateInputActions();
             starterAssetsInputs = FindObjectOfType<StarterAssetsInputs>();
         }
 
+        private void OnEnable()
+        {
+            pause = inputActions.UI.Pause;
+            pause.Enable();
+
+            pause.performed += PauseSwitch;
+        }
+
+        private void OnDisable()
+        {
+            pause.Disable();      
+        }
+
         // This is the Pause button logic.
-        public void PauseSwitch()
+        public void PauseSwitch(InputAction.CallbackContext context)
         {
 
             gameIsPaused = !gameIsPaused;
 
             if (gameIsPaused)
             {
-                mobileControls.SetActive(false);                    // Let's disable the mobile input canvas.
                 Time.timeScale = 0f;                                // Time is stopped. Only unscaled animations will continue playing.
                 pauseMenu.SetActive(true);                          // Now we open the Pause menu.
                 starterAssetsInputs.cursorInputForLook = false;     // Tell the Player Input to not look around with the mouse.
@@ -54,7 +69,6 @@ namespace StarterAssets
             else
             {
                 pauseMenu.SetActive(false);                         // Close the Pause menu.
-                mobileControls.SetActive(true);                     // Let's re-enable the mobile input canvas.
                 starterAssetsInputs.cursorInputForLook = true;      // Let the camera be governed by the mouse.
                 Cursor.lockState = CursorLockMode.Locked;           // Ignore any button clicks in the GUI... so that you can use them for gameplay.
                 Time.timeScale = 1;                                 // Time flows for everyone now.
@@ -75,6 +89,12 @@ namespace StarterAssets
             {
                 AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(0);              // If scene could not be found, just load the scene in BuildIndex 0. The one at the top of your Scenes in Build list.
             }
+        }
+
+        // Self evident.
+        public void QuitGame()
+        {
+            Application.Quit();
         }
 
     }
