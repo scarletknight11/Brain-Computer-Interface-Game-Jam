@@ -30,8 +30,6 @@ This game requires an internet connection to work with the Neurosity Crown.
 
 - Thanks to [Scorpio V](https://scorpiov.bandcamp.com/) for the [Profundis sound track](https://scorpiov.bandcamp.com/track/profundis).
 
-- Thanks to [Tiny Giant Studio](https://tinygiant.studio/) for the [Modular 3D Text Plugin](https://assetstore.unity.com/packages/3d/gui/modular-3d-text-in-game-3d-ui-system-159508).
-
 - Thanks to Adobe Systems Incorporated for the royalty free [Adam](https://www.mixamo.com/#/?page=1&query=adam&type=Character) and Mixamo animations.
 
 - Thanks to Unity Technologies for the [Unity Game Engine](https://unity.com//) and starter assets.
