@@ -123,6 +123,10 @@
 -define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:MODULAR_3D_TEXT
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:GT_USE_URP
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Font/Editor-Only Font Creator.dll"
@@ -355,11 +359,17 @@
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.app@4d308ac4ec34/Parse/Plugins/dotNet45/Unity.Tasks.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.auth@cf089946267a/Firebase/Plugins/Firebase.Auth.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.google.firebase.database@b5f3ce3f1dd7/Firebase/Plugins/Firebase.Database.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.Unsafe.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll"
+-r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll"
 -r:"D:/Brain-Computer-Interface-Game-Jam/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Microsoft.MixedReality.GraphicsTools.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.TextMeshPro.Editor.ref.dll"
