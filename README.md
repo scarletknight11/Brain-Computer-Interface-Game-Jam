@@ -26,11 +26,11 @@ This game requires an internet connection to work with the Neurosity Crown.
 
 - Thanks to [AJ Keller](https://www.linkedin.com/in/andrewjaykeller/) and [Alex Castillo](https://www.linkedin.com/in/alexcas/) for the open source [Neurosity SDK](https://docs.neurosity.co/docs/overview). 
 
-- Thanks to [Ryan Turney](https://github.com/ryanturney) for the opens source [Notion SDK for Unity](https://github.com/ryanturney/notion-unity). 
+- Thanks to [Ryan Turney](https://github.com/ryanturney) for the open source [Notion SDK for Unity](https://github.com/ryanturney/notion-unity). 
 
 - Thanks to [Alexis Guevara](https://sojaexiles.com) for the free [Apartment Kit](https://assetstore.unity.com/packages/3d/environments/apartment-kit-124055).
 
-- Thanks to [Robson Cozendey](https://www.cozendey.com/) for the free [Sci-Fi Music Loops Pack](https://assetstore.unity.com/packages/audio/music/electronic/sci-fi-music-loops-pack-120186).
+- Thanks to [Scorpio V](https://scorpiov.bandcamp.com/) for the [Profundis sound track](https://scorpiov.bandcamp.com/track/profundis).
 
 - Thanks to [Tiny Giant Studio](https://tinygiant.studio/) for the [Modular 3D Text Plugin](https://assetstore.unity.com/packages/3d/gui/modular-3d-text-in-game-3d-ui-system-159508).
 
