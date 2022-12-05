@@ -9,7 +9,7 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 ## Developers
 
-- [Sanjit Singh](https://github.com/scarletknight11) [Insert Bio blurb here]
+- [Sanjit Singh](https://github.com/scarletknight11) XR Engineer | Research Colloborator @ JHU | XR Software Enginner @ Hoth Intelligence 
 
 - [Diego Saldivar](https://github.com/neurogamedev) Neuro Game Developer | Assistant Prof. of Interactive Media @ Noroff University College (Norway)
 
@@ -38,3 +38,5 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 * [Firebase for Unity Realtime Database](https://developers.google.com/unity/packages#firebase_realtime_database)
 * [Json.NET by jilleJr](https://github.com/jilleJr/Newtonsoft.Json-for-Unity)
 * [External Dependency Manager](https://developers.google.com/unity/packages#external_dependency_manager_for_unity)
+* Ardity
+* Mixed Reality Toolkit (MRTK) Version 3
