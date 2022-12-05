@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 51040c51065759585a59097a44255a4446164b7a2f7a27677578456ae4e36760
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 0704065e51505e0c545c5f75477b0b44474e407a2f7f76642e2c1e64e1e4366d
-      flags: 0
-    RecentlyUsedSceneGuid-2:
       value: 570907020351500b55565f7545210644454f482b7b2b726974701e6abae1373a
       flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-1:
       value: 0105060504010a0e0e575f74437b0c44444e1c787f797e33747a4c35b5e1306a
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-2:
       value: 0609570054515b025a59592147260d44104e1c2e7f7d776475284b67b1b73768
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-3:
       value: 000402040601510b0e565b2315210f441016497c7b787e332c2f496ab1b56739
       flags: 0
-    RecentlyUsedSceneGuid-6:
-      value: 0203015450565b080c5b5b7713730d44424e4e2c2e79746929794963e1b6376c
-      flags: 0
-    RecentlyUsedSceneGuid-7:
-      value: 07080d5e57020f0c0b5a5e2313255a4447151c737c7c7036287c4936b5b7306d
-      flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-4:
       value: 5207020007500859540c0e7449255d44444e1a72782b2563757f1937e7b26469
       flags: 0
-    RecentlyUsedSceneGuid-9:
+    RecentlyUsedSceneGuid-5:
       value: 02090d5101575a0959595d2644225d444e161c7b7f2e27357f2d1935b1b9303c
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 07080d5e57020f0c0b5a5e2313255a4447151c737c7c7036287c4936b5b7306d
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5554055457055e5a080a5d7241225c441215412e7c2976617d7a1b64b4e66769
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 53520c05530d5c595d5e5d764076594414164d2e757f74662b2f1f30b6b0373c
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 0203015450565b080c5b5b7713730d44424e4e2c2e79746929794963e1b6376c
       flags: 0
     RecentlyUsedScenePath-0:
       value: 224247031146466b5e5e5c1d252d56040f583419007c133e243d047cc6e53937f1a812ecea35000e3616ee280d30061ce7080c45e305031f08
