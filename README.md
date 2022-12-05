@@ -13,7 +13,7 @@ Submission for the [BCI Game Jam 2022](https://bci.games/gamejam.html). The game
 
 - [Diego Saldivar](https://github.com/neurogamedev) Neuro Game Developer | Assistant Prof. of Interactive Media @ Noroff University College (Norway)
 
-- [Faiyaz Ahmed](https://github.com/Faiyaz42) [Insert Bio blurb here]
+- [Faiyaz Ahmed](https://github.com/Faiyaz42)  Computing Science Student at the University of Alberta
 
 ## Special Instructions for Use
 
